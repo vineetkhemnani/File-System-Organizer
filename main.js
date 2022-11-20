@@ -16,7 +16,7 @@ let inputArr = process.argv.slice(2); //slice(2)--> 0-2
 // node main.js organize "directoryPath"
 // node main.js help
 let types = {
-    media: ["mp4", "mkv", "mp3", "jpg", "png", "jpeg"],
+    media: ["mp4", "mkv", "mp3", "jpg", "png", "jpeg", "gif"],
     archives: ["zip", "7z", "rar", "tar", "gz", "ar", "iso", "xz"],
     documents: [
       "docx",
